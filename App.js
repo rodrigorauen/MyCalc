@@ -13,7 +13,7 @@ export default function App() {
       <Header/>
       <Calc/>
       <Footer/>
-      <StatusBar style="auto" />
+      <StatusBar style="auto"/>
     </View>
   );
 }
@@ -21,7 +21,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'gray',
     alignItems: 'center',
     justifyContent: 'center',
     padding:0,

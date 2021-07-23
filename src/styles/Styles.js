@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 
+
 export const styles= StyleSheet.create({
     header:{
         height:50,
@@ -14,6 +15,7 @@ export const styles= StyleSheet.create({
         fontSize: 30,
         fontWeight: 'bold',
         color:'white',
+        fontFamily: 'monospace',
     },
     body:{
         display: 'flex',
@@ -31,20 +33,22 @@ export const styles= StyleSheet.create({
         margin: -15
     },
     visor: {
-        backgroundColor: 'lightgrey',
-        borderColor: 'darkgrey',
+        backgroundColor: 'white',
+        borderColor: 'black',
         borderWidth: 2,
     },
     textVisor:{
         padding:5,
         textAlign: 'center',
-        fontSize: 20
+        fontSize: 20,
     },
     inputNum:{
         height:50,
         textAlign: 'center',
         borderWidth: 2,
         fontSize:15,
+        backgroundColor: 'white',
+        fontFamily: 'monospace',
     },
     button: {
         backgroundColor: 'black',
@@ -53,16 +57,17 @@ export const styles= StyleSheet.create({
         alignItems: 'center',
         margin:1,
         borderWidth:2,
-        borderColor:'orange',
-        
+        borderColor:'orange',   
     },
     textButton:{
         color: 'white',
         fontSize:20,
+        fontFamily: 'monospace',
     },
     footerText:{
         fontSize: 20,
         fontWeight: 'bold',
         color:'white',
+        fontFamily: 'monospace',
     },
 })

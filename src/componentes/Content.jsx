@@ -122,7 +122,7 @@ export default function Calc(){
                     }
                         onPress={() =>{
                             handleInputChange('result', (valores.a % valores.b)),
-                            handleInputChange2('operador', '-')
+                            handleInputChange2('operador', '%')
                         }}
                     >
                         <Text
@@ -137,7 +137,7 @@ export default function Calc(){
                     }
                         onPress={() =>{
                             handleInputChange('result', Math.pow(valores.a,valores.b)),
-                            handleInputChange2('operador', '-')
+                            handleInputChange2('operador', '^')
                         }}
                     >
                         <Text
@@ -158,7 +158,7 @@ export default function Calc(){
                         styles.textButton
                     }
                         onPress={
-                            () => setValores({a:"",b:"",result:""})
+                            () => setValores({a:"",b:"",result:"",})
                         }
                     >C</Text>
                 </TouchableOpacity>
